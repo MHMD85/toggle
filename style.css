@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 1rem;
+}
+#blueField{
+    border-radius: 5px;
+    background-color: lightblue;
+    min-height: 3rem;
+    text-indent: 2%;
+    padding-top: 1%;
+    font-weight: bold;
+}

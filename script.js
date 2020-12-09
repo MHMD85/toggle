@@ -6,6 +6,7 @@ let btnHoudini = document.getElementById('houdini');
 info.style.display = 'none';
 listGroup.classList.add('d-none');
 
+
 btnHoudini.addEventListener('click', function (e) {
     if (listGroup.classList.contains('d-none')) {
         listGroup.classList.remove('d-none');
